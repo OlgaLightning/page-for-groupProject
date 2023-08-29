@@ -1,0 +1,60 @@
+body {
+    background-color: rgba(250, 219, 227, 1);
+}
+
+main {
+    width: 60%;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2%;
+    font-family: 'Jost', sans-serif;
+}
+
+.indent {
+    padding-bottom: 25px;
+}
+
+.input {
+    width: 135px;
+}
+
+.slider {
+    accent-color: rgba(238, 68, 95, 1);
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    background-color: rgba(238, 68, 95, 1);
+    border: 2px solid rgba(238, 68, 95, 1);
+    border-radius: 20px;
+    width: 25%;
+    padding: 10px;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: rgba(238, 68, 95, 1);
+}
+
+h3 {
+    color: rgba(238, 68, 95, 1);
+}
+
+.question {
+    display: flex;
+    align-items: baseline;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
